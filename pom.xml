@@ -3,7 +3,19 @@
   <groupId>team.ttcn.lear</groupId>
   <artifactId>learnsupport</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>6</source>
+                    <target>6</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <packaging>war</packaging>
   
   	<properties>
 		<jstl.version>1.2</jstl.version>
@@ -76,7 +88,7 @@
 
 
 
-	  <!-- tao common dbcp de ket noi habernate -->
+	  <!-- tao common dbcp de ket noi JDBC -->
 	<!-- https://mvnrepository.com/artifact/commons-dbcp/commons-dbcp -->
 	<!-- https://mvnrepository.com/artifact/commons-dbcp/commons-dbcp -->
 	<dependency>

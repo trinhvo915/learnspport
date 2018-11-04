@@ -1,0 +1,9 @@
+my\com\entity\Person.class
+my\com\entity\Role.class
+my\com\controller\AdminController.class
+my\com\entity\User.class
+my\com\controller\DangKyController.class
+my\com\controller\DangNhapController.class
+my\com\controller\TrangChuController.class
+my\com\entity\Admin.class
+my\com\entity\khachhang.class

@@ -12,6 +12,10 @@
 		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd">
  	
 	<context:component-scan base-package="my.com.controller"/>
+	<context:component-scan base-package="my.com.service"/>
+	<context:component-scan base-package="my.com.dao"/>
+
+
 	<import resource="classpath:IoC.xml"/>
 
 	<bean class = "org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -26,6 +30,6 @@
 	<mvc:resources mapping="/resources/js/**" location="/resources/js/" />
 	<mvc:resources mapping="/resources/fonts/**" location="/resources/fonts/" />
 	<mvc:annotation-driven />  <!-- chú ý phải thêm dòng này thì dòng trên mới thực hiện được = ><mvc:resources mapping="/resources/**" location="/resources/css/" /> -->
-	
+
 	
 </beans>

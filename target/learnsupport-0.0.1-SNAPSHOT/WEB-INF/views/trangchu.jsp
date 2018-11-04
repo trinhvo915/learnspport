@@ -28,6 +28,8 @@
     			</button>
     			<a href="dangky">Register</a>
     			<a href="dangnhap">Log in</a>
+				<<a href="aaa">{username1}</a>
+
 			</div>
 	</header>
 	<div id="content">

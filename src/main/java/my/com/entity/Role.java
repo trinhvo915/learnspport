@@ -1,32 +1,47 @@
 package my.com.entity;
 
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
-
+@Entity(name = "role")
 public class Role {
-	private Integer idRole;
-	private String nameRole;
-	List<Person> listUser =new ArrayList<Person>();
-	
-	
-	public Integer getIdRole() {
-		return idRole;
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Integer roleid;
+	private String username;
+
+	@OneToMany(mappedBy = "role")
+	private List<User> userList;
+
+
+	public Role() {
 	}
-	public void setIdRole(Integer idRole) {
-		this.idRole = idRole;
+	public Role(Integer roleid, String username) {
+
+		this.roleid = roleid;
+		this.username = username;
 	}
-	public String getNameRole() {
-		return nameRole;
+
+	public List<User> getUserList() {
+		return userList;
 	}
-	public void setNameRole(String nameRole) {
-		this.nameRole = nameRole;
+
+	public void setUserList(List<User> userList) {
+		this.userList = userList;
 	}
-	public List<Person> getListUser() {
-		return listUser;
+
+	public Integer getRoleid() {
+		return roleid;
 	}
-	public void setListUser(List<Person> listUser) {
-		this.listUser = listUser;
-	}  
-	
-	
+
+	public void setRoleid(Integer roleid) {
+		this.roleid = roleid;
+	}
+
+	public String getUsername() {
+		return username;
+	}
+	public void setUsername(String username) {
+		this.username = username;
+	}
 }

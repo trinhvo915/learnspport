@@ -7,9 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/dangky")
 public class DangKyController {
-	
+
 	@GetMapping
 	public String Default() {
+
 		return "dangki";
 	}
 }

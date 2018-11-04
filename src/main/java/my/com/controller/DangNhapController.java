@@ -1,24 +1,35 @@
 package my.com.controller;
 
+import my.com.entity.User;
+import my.com.service.DangNhapUserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 @RequestMapping("/dangnhap")
+@SessionAttributes(names = "user")
 public class DangNhapController {
+
+    @Autowired
+    DangNhapUserService dangNhapUserService;
+
 	@GetMapping
 	public String Default() {
 		return "dangnhap";
 	}
-	
+
 	@PostMapping
-	public String xuLyDangNhap(@RequestParam String username, @RequestParam String password) {
-		if(username.equals("trinhvo") && password.equals("12345")) {
-			return "redirect:/";
-		}
-		return "dangnhap";
+	@Transactional
+	public String xuLyDangNhap(@RequestParam String username, @RequestParam String password, ModelMap modelMap) {
+        boolean check = dangNhapUserService.checkLogin(username,password);
+
+        if (check) {
+            modelMap.addAttribute("user",username);
+            return "redirect:/";
+        }
+	    return "dangnhap";
 	}
 }
