@@ -1,0 +1,49 @@
+.image_slide{
+	height: 300px !important;
+	margin: 0 auto;
+}
+.navbar {
+	background: blue;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-weight: 600;
+}
+.row{
+	margin: 0;
+	padding: 20px;
+}
+.post_item{
+	text-align: center;
+	display: inline-block;
+	width: 33%
+}
+.border_item{
+	display: inline-block;
+	margin: 20px;
+	border: 1px solid #222;
+	box-shadow: 2px 2px #333;
+}
+.tac_gia{
+	margin: 3px;
+	color: black;
+	font-style:italic;
+	font-size: 20px;
+}
+
+.tieu_de{
+	margin: 3px;
+	color: black;
+	font-style: italic;
+	font-size: 15px;
+	opacity: 0.5
+}

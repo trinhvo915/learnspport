@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:cache="http://www.springframework.org/schema/cache"
+		xmlns:context="http://www.springframework.org/schema/context"
+		xmlns:jee ="http://www.springframework.org/schema/jee"
+		xmlns:mvc="http://www.springframework.org/schema/mvc"
+		xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache-4.3.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/jee  http://www.springframework.org/schema/jee/spring-jee-4.3.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd">
+ 	
+	<context:component-scan base-package="my.com.controller"/>
+	<import resource="classpath:IoC.xml"/>
+
+	<bean class = "org.springframework.web.servlet.view.InternalResourceViewResolver">
+	  <property name="order" value="2"/>
+      <property name = "prefix" value = "/WEB-INF/views/" />
+      <property name = "suffix" value = ".jsp" />
+   	</bean>
+
+	<!-- // mapping path css - js - image -->
+	<mvc:resources mapping="/resources/css/**" location="/resources/css/" />
+	<mvc:resources mapping="/resources/image/**" location="/resources/image/" />
+	<mvc:resources mapping="/resources/js/**" location="/resources/js/" />
+	<mvc:resources mapping="/resources/fonts/**" location="/resources/fonts/" />
+	<mvc:annotation-driven />  <!-- chú ý phải thêm dòng này thì dòng trên mới thực hiện được = ><mvc:resources mapping="/resources/**" location="/resources/css/" /> -->
+	
+	
+</beans>

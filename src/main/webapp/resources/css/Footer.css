@@ -1,0 +1,15 @@
+footer{
+	width: 100%
+	background: white;
+	text-align: center;
+	border-top: 1px solid #000;
+}
+.info img{
+	height: 150px;
+}
+
+.admin{
+	font-size: 20px;
+	font-weight: 500;
+	margin: 3px;
+}
