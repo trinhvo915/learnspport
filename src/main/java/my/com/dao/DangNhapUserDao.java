@@ -18,7 +18,7 @@ public class DangNhapUserDao implements DangNhapUserIpml {
 
     @Override
     @Transactional
-    public boolean checkLogin(String username, String password) {
+    public User checkLogin(String username, String password) {
         Session session = sessionFactory.getCurrentSession();
         try {
             User user = (User) session.
@@ -26,17 +26,28 @@ public class DangNhapUserDao implements DangNhapUserIpml {
                     .getSingleResult();
 
             if(user !=null) {
-                return  true;
+                return  user;
             }
         }catch (Exception e){
             System.out.println("dang nha that bai");
         }
-        return false;
+        return null;
     }
 
     @Override
-    public boolean checkdk(String username, String password) {
-        // qr = :
-        return false;
+    public User checkLogin(String username) {
+        Session session = sessionFactory.getCurrentSession();
+        try {
+            User user = (User) session.
+                    createQuery("from user where username = '"+username+"'")
+                    .getSingleResult();
+
+            if(user !=null) {
+                return  user;
+            }
+        }catch (Exception e){
+            System.out.println("dang nha that bai");
+        }
+        return null;
     }
 }

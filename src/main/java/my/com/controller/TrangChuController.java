@@ -2,6 +2,8 @@ package my.com.controller;
 
 import java.util.List;
 
+import my.com.entity.User;
+import my.com.service.DangNhapUserService;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,36 +24,20 @@ import javax.servlet.http.HttpSession;
 public class TrangChuController {
 	@Autowired
 	SessionFactory sessionFactory =null;
-	
+    @Autowired
+    DangNhapUserService dangNhapUserService;
 	@RequestMapping("/")
-	@Transactional //@SessionAttribute("user")String Name,
+	@Transactional
 	public String ViewTrangChu(HttpSession httpSession, ModelMap modelMap) {
-
-		if(httpSession.getAttribute("user") !=null){
+	    if(httpSession.getAttribute("user") !=null){
 			String username = (String) httpSession.getAttribute("user");
-			//System.out.println(username);
-			//String usernamesesion = username.substring(0,4);
-			//System.out.println(usernamesesion);
-			modelMap.addAttribute("username",username);
+            User user = dangNhapUserService.checkLogin(username);
+            int roleid = user.getRole().getRoleid();
+            if(roleid!=1){
+                modelMap.addAttribute("username",username);
+            }
 		}
-//		try {
-//			Session session = sessionFactory.getCurrentSession();
-//			//String sql1 =" select * From hachhang";
-//			List<khachhang> list = session.createQuery("from hachhang ").getResultList();
-//
-//			for (khachhang khachhang : list) {
-//				System.out.println(khachhang.toString());
-//			}
-//
-//		}catch (Exception e){
-//
-//		}
-		modelMap.addAttribute("username1","vo van trinh");
 		return "trangchu";
 	}
 
-//	@RequestMapping("/dangnhap")
-//	public String Login(ModelAndView andView) {
-//		return "dangnhap";
-//	}
 }

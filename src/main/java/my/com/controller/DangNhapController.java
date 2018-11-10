@@ -24,12 +24,15 @@ public class DangNhapController {
 	@PostMapping
 	@Transactional
 	public String xuLyDangNhap(@RequestParam String username, @RequestParam String password, ModelMap modelMap) {
-        boolean check = dangNhapUserService.checkLogin(username,password);
-
-        if (check) {
+        User user = dangNhapUserService.checkLogin(username,password);
+		int roleid = user.getRole().getRoleid();
+        if (user!=null && roleid == 2 || roleid == 3) {
             modelMap.addAttribute("user",username);
             return "redirect:/";
-        }
+        }else if(user!=null && roleid == 1){
+			modelMap.addAttribute("user",username);
+			return "redirect:/admin";
+		}
 	    return "dangnhap";
 	}
 }

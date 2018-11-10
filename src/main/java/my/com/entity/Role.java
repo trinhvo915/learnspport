@@ -1,6 +1,7 @@
 package my.com.entity;
 
 import javax.persistence.*;
+import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
 @Entity(name = "role")
@@ -9,6 +10,7 @@ public class Role {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer roleid;
 	private String username;
+	private Timestamp createday;
 
 	@OneToMany(mappedBy = "role")
 	private List<User> userList;
@@ -20,6 +22,14 @@ public class Role {
 
 		this.roleid = roleid;
 		this.username = username;
+	}
+
+	public Timestamp getCreateday() {
+		return createday;
+	}
+
+	public void setCreateday(Timestamp createday) {
+		this.createday = createday;
 	}
 
 	public List<User> getUserList() {

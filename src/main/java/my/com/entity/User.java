@@ -10,24 +10,21 @@ public class User {
 	private String username;
 	private String password;
 
-
 	@ManyToOne
 	@JoinColumn(name = "roleid")
 	private Role role;
 
-	@OneToOne
-	@JoinColumn(name = "profileid")
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@OneToOne(mappedBy = "user")
 	private Profile profile;
 
 	public User() {
 	}
 
-	public User(Integer userid, String username, String password, Role role) {
+	public User(Integer userid, String username, String password, Profile profile) {
 		this.userid = userid;
 		this.username = username;
 		this.password = password;
-		this.role = role;
+		this.profile = profile;
 	}
 
 	public User(Integer userid, String username, String password) {
@@ -53,14 +50,6 @@ public class User {
 
 	public void setProfile(Profile profile) {
 		this.profile = profile;
-	}
-
-	public Integer getUserid() {
-		return userid;
-	}
-
-	public void setUserid(Integer userid) {
-		this.userid = userid;
 	}
 
 	public String getUsername() {

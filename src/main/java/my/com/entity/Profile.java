@@ -15,22 +15,24 @@ public class Profile {
     private Timestamp createday;
     private Timestamp ngaysinh;
 
-    @OneToOne(mappedBy = "profile")
+    @OneToOne
+    @JoinColumn(name = "userid")
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private User user;
-
 
 
     public Profile() {
 
     }
 
-    public Profile(Integer profileid, String name, String image, String email, Timestamp createday, Timestamp ngaysinh) {
+    public Profile(Integer profileid, String name, String image, String email, Timestamp createday, Timestamp ngaysinh,User user) {
         this.profileid = profileid;
         this.name = name;
         this.image = image;
         this.email = email;
         this.createday = createday;
         this.ngaysinh = ngaysinh;
+        this.user = user;
     }
 
     public User getUser() {
