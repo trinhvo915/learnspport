@@ -24,7 +24,6 @@ public class Profile {
     public Profile() {
 
     }
-
     public Profile(Integer profileid, String name, String image, String email, Timestamp createday, Timestamp ngaysinh,User user) {
         this.profileid = profileid;
         this.name = name;

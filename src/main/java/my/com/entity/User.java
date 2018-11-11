@@ -17,10 +17,16 @@ public class User {
 	@OneToOne(mappedBy = "user")
 	private Profile profile;
 
+	@OneToMany(mappedBy = "user")
+	private List<Comment> listComment;
+
+	@OneToMany(mappedBy = "user")
+	private List<DaiHocTest> listDaiHocTest;
 	public User() {
 	}
 
-	public User(Integer userid, String username, String password, Profile profile) {
+	public User(Integer userid, String username,
+                String password, Profile profile) {
 		this.userid = userid;
 		this.username = username;
 		this.password = password;
@@ -36,7 +42,35 @@ public class User {
 		this.username = username;
 		this.password = password;
 	}
-	public Role getRole() {
+
+    public User(String username, String password,
+                Role role, Profile profile,
+                List<Comment> listComment) {
+        this.username = username;
+        this.password = password;
+        this.role = role;
+        this.profile = profile;
+        this.listComment = listComment;
+    }
+
+
+    public Integer getUserid() {
+        return userid;
+    }
+
+    public void setUserid(Integer userid) {
+        this.userid = userid;
+    }
+
+    public List<Comment> getListComment() {
+        return listComment;
+    }
+
+    public void setListComment(List<Comment> listComment) {
+        this.listComment = listComment;
+    }
+
+    public Role getRole() {
 		return role;
 	}
 

@@ -1,6 +1,7 @@
 package my.com.entity;
 
 import javax.persistence.*;
+import java.sql.Timestamp;
 import java.util.List;
 
 @Entity(name = "monhoc")
@@ -9,9 +10,13 @@ public class MonHoc {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer idmonhoc;
     private String nameMonHoc;
+    private Timestamp createday;
 
     @OneToMany(mappedBy = "monHoc")
     private List<Chuong> listChuong;
+
+    @OneToMany(mappedBy = "monHoc")
+    private List<DaiHocTest> listDaiHocTest;
 
     public MonHoc() {
     }
@@ -19,6 +24,20 @@ public class MonHoc {
     public MonHoc(Integer idmonhoc, String nameMonHoc) {
         this.idmonhoc = idmonhoc;
         this.nameMonHoc = nameMonHoc;
+    }
+
+    public MonHoc(String nameMonHoc, Timestamp createday, List<Chuong> listChuong) {
+        this.nameMonHoc = nameMonHoc;
+        this.createday = createday;
+        this.listChuong = listChuong;
+
+    }
+    public Timestamp getCreateday() {
+        return createday;
+    }
+
+    public void setCreateday(Timestamp createday) {
+        this.createday = createday;
     }
 
     public List<Chuong> getListChuong() {
