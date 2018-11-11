@@ -32,6 +32,22 @@ public class MonHoc {
         this.listChuong = listChuong;
 
     }
+
+    public MonHoc(String nameMonHoc, Timestamp createday, List<Chuong> listChuong, List<DaiHocTest> listDaiHocTest) {
+        this.nameMonHoc = nameMonHoc;
+        this.createday = createday;
+        this.listChuong = listChuong;
+        this.listDaiHocTest = listDaiHocTest;
+    }
+
+    public List<DaiHocTest> getListDaiHocTest() {
+        return listDaiHocTest;
+    }
+
+    public void setListDaiHocTest(List<DaiHocTest> listDaiHocTest) {
+        this.listDaiHocTest = listDaiHocTest;
+    }
+
     public Timestamp getCreateday() {
         return createday;
     }

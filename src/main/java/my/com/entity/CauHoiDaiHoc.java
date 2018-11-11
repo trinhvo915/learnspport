@@ -35,6 +35,14 @@ public class CauHoiDaiHoc {
         this.createday = createday;
     }
 
+    public DaiHocTest getDaiHocTest() {
+        return daiHocTest;
+    }
+
+    public void setDaiHocTest(DaiHocTest daiHocTest) {
+        this.daiHocTest = daiHocTest;
+    }
+
     public Integer getId_cauhoiDH() {
         return id_cauhoiDH;
     }

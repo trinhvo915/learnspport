@@ -29,6 +29,31 @@ public class DaiHocTest {
     public DaiHocTest() {
     }
 
+    public DaiHocTest(double diem, Timestamp createday, User user, MonHoc monHoc, List<CauHoiDaiHoc> listdaiHocTest, List<RankUser> listRankUser) {
+        this.diem = diem;
+        this.createday = createday;
+        this.user = user;
+        this.monHoc = monHoc;
+        this.listdaiHocTest = listdaiHocTest;
+        this.listRankUser = listRankUser;
+    }
+
+    public List<CauHoiDaiHoc> getListdaiHocTest() {
+        return listdaiHocTest;
+    }
+
+    public void setListdaiHocTest(List<CauHoiDaiHoc> listdaiHocTest) {
+        this.listdaiHocTest = listdaiHocTest;
+    }
+
+    public List<RankUser> getListRankUser() {
+        return listRankUser;
+    }
+
+    public void setListRankUser(List<RankUser> listRankUser) {
+        this.listRankUser = listRankUser;
+    }
+
     public Integer getId_baitestdh() {
         return id_baitestdh;
     }

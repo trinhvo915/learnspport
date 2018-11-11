@@ -53,8 +53,24 @@ public class User {
         this.listComment = listComment;
     }
 
+	public User(String username, String password, Role role, Profile profile, List<Comment> listComment, List<DaiHocTest> listDaiHocTest) {
+		this.username = username;
+		this.password = password;
+		this.role = role;
+		this.profile = profile;
+		this.listComment = listComment;
+		this.listDaiHocTest = listDaiHocTest;
+	}
 
-    public Integer getUserid() {
+	public List<DaiHocTest> getListDaiHocTest() {
+		return listDaiHocTest;
+	}
+
+	public void setListDaiHocTest(List<DaiHocTest> listDaiHocTest) {
+		this.listDaiHocTest = listDaiHocTest;
+	}
+
+	public Integer getUserid() {
         return userid;
     }
 
