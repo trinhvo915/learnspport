@@ -81,17 +81,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">TOÁN HỌC</a></li>
-                    <li><a href="#">NGỮ VĂN</a></li>
-                    <li><a href="#">ANH VĂN</a></li>
-                    <li><a href="#">VẬT LÝ</a></li>
-                    <li><a href="#">HÓA HỌC</a></li>
-                    <li><a href="#">LỊCH SỬ</a></li>
-                    <li><a href="#">ĐỊA LÝ</a></li>
-                    <li><a href="#">SINH HỌC</a></li>
-                    <li><a href="#">ÂM NHẠC</a></li>
-                    <li><a href="#">NGỮ VĂN</a></li>
-                    <li><a href="#">MỸ THUẬT</a></li>
+                    <c:forEach items="${listdanhmuc}" var="item" >
+                        <li><a href="#">${item.nameMonHoc}</a></li>
+                    </c:forEach>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>

@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -53,48 +55,39 @@
                     </div>
                     <table class="table table-bordered table-hover">
                         <thead>
-                        <tr>
-                            <th><input id="check_all" type="checkbox"></th>
-                            <th class="hidden-xs">ID</th>
-                            <th>TÊN MÔN HỌC</th>
-                            <th class="hidden-sm hidden-xs">Ngày tạo</th>
-                            <th>Sửa</th>
-                            <th>Tình trạng</th>
-                        </tr>
+                            <tr>
+                                <th><input id="check_all" type="checkbox"></th>
+                                <th class="hidden-xs">ID</th>
+                                <th>TÊN MÔN HỌC</th>
+                                <th class="hidden-sm hidden-xs">Ngày tạo</th>
+                                <th>Sửa</th>
+                                <th>Tình trạng</th>
+                            </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>
-                                    <input name="id[]" type="checkbox" value="0">
-                                </td>
-                                <td class="hidden-xs">1</td>
-                                <td>
-                                    <a href="new-type_product.html">TOÁN</a>
-                                </td>
-                                <td class="hidden-sm hidden-xs">2014-06-19 01:05:13</td>
-                                <td>
-                                    <a href="new-type_product.html"><i class="fa fa-edit" data-toggle="tooltip" data-placement="top" title="Sửa tài khoản"></i></a>
-                                </td>
-                                <td>
-                                    <i class="fa fa-check text-success" data-toggle="tooltip" data-placement="top" title="Đang hoạt động"></i>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <input name="id[]" type="checkbox" value="0">
-                                </td>
-                                <td class="hidden-xs">2</td>
-                                <td>
-                                    <a href="new-type_product.html">LÝ</a>
-                                </td>
-                                <td class="hidden-sm hidden-xs">2014-06-19 01:05:13</td>
-                                <td>
-                                    <a href="new-type_product.html"><i class="fa fa-edit" data-toggle="tooltip" data-placement="top" title="Sửa tài khoản"></i></a>
-                                </td>
-                                <td>
-                                    <i class="fa fa-check text-success" data-toggle="tooltip" data-placement="top" title="Đang hoạt động"></i>
-                                </td>
-                            </tr>
+                            <c:forEach items="${listdm}" var="monhoc">
+                                <tr>
+                                    <td>
+                                        <input name="id[]" type="checkbox" value="0">
+                                    </td>
+                                    <td class="hidden-xs">
+                                        <span>${monhoc.idmonhoc}</span>
+                                    </td>
+                                    <td>
+                                        <a href="#">${monhoc.nameMonHoc}</a>
+                                    </td>
+                                    <td class="hidden-sm hidden-xs">
+                                        <span>${monhoc.createday}</span>
+                                    </td>
+                                    <td>
+                                        <spring:url value="/listDanhMuc/${monhoc.idmonhoc}/update " var="UpdateUrl"/>
+                                        <a href="UpdateUrl"><i class="fa fa-edit" data-toggle="tooltip" data-placement="top" title="Sửa tài khoản"></i></a>
+                                    </td>
+                                    <td>
+                                        <i class="fa fa-check text-success" data-toggle="tooltip" data-placement="top" title="Đang hoạt động"></i>
+                                    </td>
+                                </tr>
+                            </c:forEach>
                         </tbody>
                     </table>
                     <div class="text-right">

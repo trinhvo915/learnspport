@@ -5,13 +5,38 @@
       <artifact name="learnsupport:war" />
     </artifacts-to-build>
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/my/com/daoimpl/DanhMucImpl.java" description="void add(MonHoc monHoc);" line="10" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="69e41b55-1832-4586-a9e6-689abc20638b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/com/entity/CauHoiDaiHoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/com/entity/CauHoiDaiHoc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/com/entity/DaiHocTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/com/entity/DaiHocTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dc3a6b9e-e40d-4f01-ae42-600aa1be957c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dc3a6b9e-e40d-4f01-ae42-600aa1be957c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/com/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/com/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/com/controller/TrangChuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/com/controller/TrangChuController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/my/com/entity/MonHoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/com/entity/MonHoc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/com/entity/RankUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/com/entity/RankUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/com/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/com/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/com/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/com/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/listdanhmuc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/listdanhmuc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/newdanhmuc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/newdanhmuc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trangchu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trangchu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/my/com/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/my/com/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/my/com/controller/TrangChuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/my/com/controller/TrangChuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/my/com/entity/CauHoiDaiHoc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/my/com/entity/CauHoiDaiHoc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/my/com/entity/DaiHocTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/my/com/entity/DaiHocTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/my/com/entity/MonHoc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/my/com/entity/MonHoc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/my/com/entity/RankUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/my/com/entity/RankUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/my/com/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/my/com/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/learnsupport-0.0.1-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/learnsupport-0.0.1-SNAPSHOT/WEB-INF/classes/my/com/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/learnsupport-0.0.1-SNAPSHOT/WEB-INF/classes/my/com/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/learnsupport-0.0.1-SNAPSHOT/WEB-INF/classes/my/com/controller/TrangChuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/learnsupport-0.0.1-SNAPSHOT/WEB-INF/classes/my/com/controller/TrangChuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/learnsupport-0.0.1-SNAPSHOT/WEB-INF/classes/my/com/entity/CauHoiDaiHoc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/learnsupport-0.0.1-SNAPSHOT/WEB-INF/classes/my/com/entity/CauHoiDaiHoc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/learnsupport-0.0.1-SNAPSHOT/WEB-INF/classes/my/com/entity/DaiHocTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/learnsupport-0.0.1-SNAPSHOT/WEB-INF/classes/my/com/entity/DaiHocTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/learnsupport-0.0.1-SNAPSHOT/WEB-INF/classes/my/com/entity/MonHoc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/learnsupport-0.0.1-SNAPSHOT/WEB-INF/classes/my/com/entity/MonHoc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/learnsupport-0.0.1-SNAPSHOT/WEB-INF/classes/my/com/entity/RankUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/learnsupport-0.0.1-SNAPSHOT/WEB-INF/classes/my/com/entity/RankUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/learnsupport-0.0.1-SNAPSHOT/WEB-INF/classes/my/com/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/learnsupport-0.0.1-SNAPSHOT/WEB-INF/classes/my/com/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/learnsupport-0.0.1-SNAPSHOT/WEB-INF/views/admin/listdanhmuc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/learnsupport-0.0.1-SNAPSHOT/WEB-INF/views/admin/listdanhmuc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/learnsupport-0.0.1-SNAPSHOT/WEB-INF/views/admin/newdanhmuc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/learnsupport-0.0.1-SNAPSHOT/WEB-INF/views/admin/newdanhmuc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/learnsupport-0.0.1-SNAPSHOT/WEB-INF/views/trangchu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/learnsupport-0.0.1-SNAPSHOT/WEB-INF/views/trangchu.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,28 +77,14 @@
         <item name="weblearn@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="weblearn: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="cauhoidh: table" type="98d5ac3d:MysqlImplModel$Table" />
+        <item name="monhoc: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="weblearn@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="weblearn: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="chuong: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="weblearn@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="weblearn: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="rank_user: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="weblearn@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="weblearn: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="testdh: table" type="98d5ac3d:MysqlImplModel$Table" />
+        <item name="user: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -82,61 +93,67 @@
     <session id="1456807230">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.103" value="1" />
           <entry key="project.open.time.113" value="1" />
+          <entry key="project.open.time.123" value="1" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.194" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.82" value="1" />
-          <entry key="project.open.time.90" value="1" />
+          <entry key="project.open.time.90" value="2" />
           <entry key="project.open.time.92" value="1" />
           <entry key="project.open.time.96" value="1" />
           <entry key="project.open.time.98" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="SCHEMA:weblearn" value="3" />
-          <entry key="baihoc" value="2" />
-          <entry key="chuong" value="2" />
-          <entry key="class" value="6" />
+          <entry key="SCHEMA:weblearn" value="5" />
+          <entry key="baihoc" value="3" />
+          <entry key="chuong" value="4" />
+          <entry key="class" value="16" />
           <entry key="comment" value="1" />
           <entry key="css" value="4" />
+          <entry key="demotime" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="185" />
+          <entry key="java" value="343" />
           <entry key="js" value="2" />
-          <entry key="jsp" value="45" />
-          <entry key="monhoc" value="2" />
+          <entry key="jsp" value="57" />
+          <entry key="monhoc" value="21" />
           <entry key="profile" value="16" />
+          <entry key="rnc" value="1" />
           <entry key="role" value="13" />
-          <entry key="sql" value="17" />
-          <entry key="user" value="34" />
+          <entry key="sql" value="23" />
+          <entry key="user" value="35" />
           <entry key="xml" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="6" />
+          <entry key="CLASS" value="16" />
           <entry key="CSS" value="4" />
-          <entry key="Database Element" value="70" />
+          <entry key="Database Element" value="94" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="185" />
-          <entry key="JSP" value="45" />
+          <entry key="JAVA" value="343" />
+          <entry key="JSP" value="57" />
           <entry key="JavaScript" value="2" />
-          <entry key="SQL" value="12" />
-          <entry key="Scratch" value="5" />
-          <entry key="UML" value="3" />
+          <entry key="RNG Compact" value="1" />
+          <entry key="SQL" value="13" />
+          <entry key="Scratch" value="10" />
+          <entry key="UML" value="5" />
           <entry key="XML" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cell" value="132" />
+          <entry key="cell" value="570" />
           <entry key="css" value="15" />
-          <entry key="java" value="4373" />
-          <entry key="jsp" value="1241" />
-          <entry key="sql" value="148" />
+          <entry key="java" value="6536" />
+          <entry key="jsp" value="1571" />
+          <entry key="sql" value="186" />
           <entry key="txt" value="12" />
           <entry key="xml" value="91" />
         </counts>
@@ -144,12 +161,12 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="15" />
-          <entry key="JAVA" value="4368" />
-          <entry key="JPA QL" value="5" />
-          <entry key="JSP" value="1241" />
+          <entry key="JAVA" value="6529" />
+          <entry key="JPA QL" value="7" />
+          <entry key="JSP" value="1571" />
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="SQL" value="64" />
-          <entry key="Scratch" value="216" />
+          <entry key="SQL" value="78" />
+          <entry key="Scratch" value="678" />
           <entry key="XML" value="91" />
         </counts>
       </usages-collector>
@@ -160,16 +177,43 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/com/controller/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="109" selection-start-line="109" selection-end-line="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/com/dao/DanhMucDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Timestamp</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -177,13 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/my/com/entity/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/com/entity/Admin.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/IoC.xml" />
-        <option value="dc3a6b9e-e40d-4f01-ae42-600aa1be957c/schema/weblearn/table/user.sql" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/my/com/service/DangKyUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/com/controller/DangKyController.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/com/dao/DangKyUserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/com/controller/DangNhapController.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/com/daoimpl/DangKyUserImpl.java" />
@@ -192,7 +229,6 @@
         <option value="$PROJECT_DIR$/src/main/java/my/com/service/DangNhapUserService.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/dc3a6b9e-e40d-4f01-ae42-600aa1be957c/console_1.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/dc3a6b9e-e40d-4f01-ae42-600aa1be957c/console_2.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/my/com/controller/TrangChuController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/headAdmin.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/introjs.min.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header/headertrangchu.jsp" />
@@ -200,22 +236,17 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/Post.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/post.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/config.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trangchu.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnsupportDispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header/styleadmin.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/listPost.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/newuser.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/listuser.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/newdanhmuc.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/listdanhmuc.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/listRanhUser.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/listComment.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/my/com/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/homeadmin.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/leftadmin.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/newpost.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/my/com/entity/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/com/entity/Profile.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/com/entity/CauHoiBaiHoc.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/com/entity/BaiHoc.java" />
@@ -223,11 +254,24 @@
         <option value="$PROJECT_DIR$/src/main/java/my/com/entity/Chuong.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/com/entity/TestBaiHoc.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/com/entity/TestDaiHoc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/com/entity/MonHoc.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/com/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/com/entity/DaiHocTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/com/entity/RankUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/com/entity/CauHoiDaiHoc.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/dc3a6b9e-e40d-4f01-ae42-600aa1be957c/console_3.sql" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trangchu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/listdanhmuc.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/my/com/serviceimpl/DanhMucServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/newdanhmuc.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/my/com/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/com/utils/ConvertTimesamp.java" />
+        <option value="dc3a6b9e-e40d-4f01-ae42-600aa1be957c/schema/weblearn/table/monhoc.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/my/com/entity/MonHoc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/com/dao/DanhMucDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/com/service/DanhMucService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/com/entity/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/com/daoimpl/DanhMucImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/com/controller/TrangChuController.java" />
       </list>
     </option>
   </component>
@@ -272,7 +316,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -311,58 +354,51 @@
               <item name="learnspport" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learnsupport" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnspport" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learnsupport" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnspport" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learnsupport" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnspport" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnsupport" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnspport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql&#10;redshift" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541899210491" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542123260898" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="database.data.extractors.current.id" value="HTML Table" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -547,12 +583,16 @@
       <workItem from="1541759677402" duration="11272000" />
       <workItem from="1541777076608" duration="16431000" />
       <workItem from="1541857482599" duration="7350000" />
-      <workItem from="1541866135840" duration="6021000" />
+      <workItem from="1541866135840" duration="7217000" />
+      <workItem from="1541916494859" duration="15320000" />
+      <workItem from="1541993712544" duration="8245000" />
+      <workItem from="1542014118595" duration="22182000" />
+      <workItem from="1542102465272" duration="17794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93912000" />
+    <option name="totallyTimeSpent" value="158649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -563,10 +603,10 @@
       <window_info id="Image Layers" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25113463" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.20347957" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Database Console" order="1" weight="0.49615976" />
+      <window_info anchor="bottom" id="Spring" order="0" weight="0.32872504" />
+      <window_info anchor="bottom" id="Database Console" order="1" weight="0.359447" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32872504" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32872504" />
@@ -576,8 +616,8 @@
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32872504" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.1843318" />
-      <window_info anchor="bottom" id="Run" order="11" visible="true" weight="0.0122887865" />
-      <window_info anchor="bottom" id="Debug" order="12" weight="0.5253456" />
+      <window_info anchor="bottom" id="Run" order="11" visible="true" weight="0.265745" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.16743472" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="15" />
@@ -587,10 +627,45 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Database" order="8" weight="0.26399395" />
+      <window_info active="true" anchor="right" id="Database" order="8" visible="true" weight="0.25189108" />
     </layout>
+    <layout-to-restore>
+      <window_info id="UI Designer" order="0" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.0" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" weight="0.32872504" />
+      <window_info anchor="bottom" id="Database Console" order="1" weight="0.359447" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32872504" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32872504" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.29185867" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32872504" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.1843318" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.6359447" />
+      <window_info anchor="bottom" id="Debug" order="12" visible="true" weight="0.1889401" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Maven Projects" order="1" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info active="true" anchor="right" id="Database" order="8" visible="true" weight="0.23827533" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -598,8 +673,221 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/my/com/dao/DanhMucDao.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/my/com/dao/DanhMucDao.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/my/com/dao/DanhMucDao.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/my/com/dao/DanhMucDao.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/my/com/dao/DanhMucDao.java</url>
+          <line>52</line>
+          <properties class="my.com.dao.DanhMucDao" method="add" />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="das://dc3a6b9e-e40d-4f01-ae42-600aa1be957c/schema/weblearn/table/monhoc">
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/entity/BaiHoc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://dc3a6b9e-e40d-4f01-ae42-600aa1be957c/schema/weblearn/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/dc3a6b9e-e40d-4f01-ae42-600aa1be957c/console_3.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trangchu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1655">
+          <caret line="82" column="43" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/aria.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6659">
+          <caret line="852" column="22" selection-start-line="852" selection-start-column="22" selection-end-line="852" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dangnhap.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/serviceimpl/DanhMucServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/dc3a6b9e-e40d-4f01-ae42-600aa1be957c/console_4.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/service/DangKyUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/daoimpl/DangNhapUserIpml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/daoimpl/DangKyUserImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/dao/DangKyUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/controller/DangNhapController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/controller/DangKyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/service/DangNhapUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/entity/DaiHocTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="31" column="147" selection-start-line="31" selection-start-column="147" selection-end-line="31" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.10.Final/hibernate-core-5.2.10.Final-sources.jar!/org/hibernate/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="402" column="17" selection-start-line="402" selection-start-column="17" selection-end-line="402" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://dc3a6b9e-e40d-4f01-ae42-600aa1be957c/schema/weblearn/table/demotime" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.1.RELEASE/spring-tx-5.1.1.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/support/DelegatingIntroductionInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar!/sun/reflect/NativeConstructorAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://dc3a6b9e-e40d-4f01-ae42-600aa1be957c/schema/weblearn/table/baihoc">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -613,283 +901,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/daoimpl/DangNhapUserIpml.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/reflect/Constructor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="117">
+          <caret line="422" selection-start-line="422" selection-end-line="422" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/dao/DangKyUserDao.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/sql/Timestamp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="22">
+          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://dc3a6b9e-e40d-4f01-ae42-600aa1be957c/schema/weblearn/table/monhoc.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/newdanhmuc.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="40" column="47" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://dc3a6b9e-e40d-4f01-ae42-600aa1be957c/schema/weblearn/table/monhoc">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/my/com/dao/DangNhapUserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
+        <state relative-caret-position="94">
           <caret line="37" column="42" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/daoimpl/DangKyUserImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://dc3a6b9e-e40d-4f01-ae42-600aa1be957c/schema/weblearn/table/comment">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/admin.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/admin.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/introjs.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="2188" lean-forward="true" selection-start-line="11" selection-start-column="2188" selection-end-line="11" selection-end-column="2188" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3346" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header/headertrangchu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/setting.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2838">
-          <caret line="146" column="22" selection-start-line="146" selection-start-column="22" selection-end-line="146" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/controller/TrangChuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/trangchu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/IoC.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/ckeditor/lang/af.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/learnsupportDispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header/styleadmin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/headAdmin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/listPost.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="120" column="60" selection-start-line="120" selection-start-column="60" selection-end-line="120" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/listuser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="39" column="32" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/newuser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/newdanhmuc.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/listdanhmuc.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+        <state relative-caret-position="366">
+          <caret line="91" column="28" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/listRanhUser.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/entity/MonHoc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="7" lean-forward="true" selection-end-line="142" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/listComment.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="110" column="51" selection-start-line="110" selection-start-column="51" selection-end-line="110" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="104" column="33" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/homeadmin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/leftadmin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/newpost.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://dc3a6b9e-e40d-4f01-ae42-600aa1be957c/schema/weblearn/table/profile">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/controller/DangNhapController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="16" column="44" selection-start-line="15" selection-start-column="3" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="22">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://dc3a6b9e-e40d-4f01-ae42-600aa1be957c/schema/weblearn/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://dc3a6b9e-e40d-4f01-ae42-600aa1be957c/schema/weblearn/table/role">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/entity/TestDaiHoc.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/entity/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/entity/TestBaiHoc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/entity/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding>
-            <element signature="e#553#554#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/entity/Chuong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -899,23 +971,92 @@
           <ID>DATABASE</ID>
           <OriginalElement>dc3a6b9e-e40d-4f01-ae42-600aa1be957c.SCHEMA:weblearn</OriginalElement>
           <nodes>
-            <node x="" y="">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.role</node>
-            <node x="" y="">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.profile</node>
-            <node x="" y="">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.chuong</node>
-            <node x="" y="">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.cauhoi</node>
-            <node x="" y="">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.testdh</node>
-            <node x="" y="">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.monhoc</node>
-            <node x="" y="">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.user</node>
-            <node x="" y="">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.comment</node>
-            <node x="" y="">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.cauhoidh</node>
-            <node x="" y="">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.testbaihoc</node>
-            <node x="" y="">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.rank_user</node>
-            <node x="" y="">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.baihoc</node>
+            <node x="298.08928571428567" y="158.0">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.role</node>
+            <node x="289.5" y="529.0">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.profile</node>
+            <node x="572.6428571428571" y="147.0">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.chuong</node>
+            <node x="664.5" y="764.0">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.cauhoi</node>
+            <node x="575.6428571428571" y="316.0">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.baihoc</node>
+            <node x="97.5" y="551.0">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.testdh</node>
+            <node x="316.01785714285717" y="0.0">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.monhoc</node>
+            <node x="298.0892857142857" y="338.0">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.user</node>
+            <node x="475.5" y="551.0">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.comment</node>
+            <node x="0.0" y="764.0">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.cauhoidh</node>
+            <node x="664.5" y="562.0">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.testbaihoc</node>
+            <node x="194.0" y="830.0">dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.rank_user</node>
           </nodes>
           <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.9690821256038646" x="423.79262213359925" y="745.895812562313" />
-          <SelectedNodes />
+          <edges>
+            <edge source="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.user" target="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.role">
+              <point x="-5.6843418860808015E-14" y="-59.5" />
+              <point x="0.0" y="48.5" />
+            </edge>
+            <edge source="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.testbaihoc" target="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.baihoc">
+              <point x="0.0" y="-59.5" />
+              <point x="747.5" y="504.0" />
+              <point x="715.1428571428571" y="504.0" />
+              <point x="46.5" y="81.5" />
+            </edge>
+            <edge source="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.rank_user" target="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.testdh">
+              <point x="0.0" y="-59.5" />
+              <point x="280.0" y="739.0" />
+              <point x="226.5" y="739.0" />
+              <point x="43.0" y="70.5" />
+            </edge>
+            <edge source="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.comment" target="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.user">
+              <point x="-42.25" y="-70.5" />
+              <point x="517.75" y="504.0" />
+              <point x="443.0892857142857" y="504.0" />
+              <point x="58.0" y="59.5" />
+            </edge>
+            <edge source="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.testdh" target="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.user">
+              <point x="43.0" y="-70.5" />
+              <point x="226.5" y="504.0" />
+              <point x="327.0892857142857" y="504.0" />
+              <point x="-58.0" y="59.5" />
+            </edge>
+            <edge source="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.chuong" target="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.monhoc">
+              <point x="0.0" y="-59.5" />
+              <point x="668.6428571428571" y="122.0" />
+              <point x="463.76785714285717" y="122.0" />
+              <point x="49.25" y="48.5" />
+            </edge>
+            <edge source="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.profile" target="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.user">
+              <point x="0.0" y="-92.5" />
+              <point x="372.5" y="504.0" />
+              <point x="385.0892857142857" y="504.0" />
+              <point x="0.0" y="59.5" />
+            </edge>
+            <edge source="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.cauhoidh" target="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.testdh">
+              <point x="0.0" y="-125.5" />
+              <point x="87.0" y="739.0" />
+              <point x="140.5" y="739.0" />
+              <point x="-43.0" y="70.5" />
+            </edge>
+            <edge source="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.testdh" target="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.monhoc">
+              <point x="-43.0" y="-70.5" />
+              <point x="140.5" y="122.0" />
+              <point x="365.26785714285717" y="122.0" />
+              <point x="-49.25" y="48.5" />
+            </edge>
+            <edge source="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.comment" target="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.baihoc">
+              <point x="42.25" y="-70.5" />
+              <point x="602.25" y="504.0" />
+              <point x="622.1428571428571" y="504.0" />
+              <point x="-46.5" y="81.5" />
+            </edge>
+            <edge source="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.baihoc" target="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.chuong">
+              <point x="0.0" y="-81.5" />
+              <point x="0.0" y="59.5" />
+            </edge>
+            <edge source="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.cauhoi" target="dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.testbaihoc">
+              <point x="0.0" y="-125.5" />
+              <point x="0.0" y="59.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9159420289855071" x="199.0253164556962" y="242.0253164556962" />
+          <SelectedNodes>
+            <node>dc3a6b9e-e40d-4f01-ae42-600aa1be957c.TABLE:weblearn.testdh</node>
+          </SelectedNodes>
           <Categories>
             <Category>Key columns</Category>
             <Category>Columns</Category>
@@ -923,122 +1064,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="55" column="139" selection-start-line="55" selection-start-column="139" selection-end-line="55" selection-end-column="139" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
-            <element signature="e#1382#1383#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-            <element signature="e#1492#1493#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/entity/MonHoc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="35" column="117" selection-start-line="35" selection-start-column="117" selection-end-line="35" selection-end-column="117" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/entity/DaiHocTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="31" column="147" selection-start-line="31" selection-start-column="147" selection-end-line="31" selection-end-column="147" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/entity/RankUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/entity/CauHoiDaiHoc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1099#1100#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
-            <element signature="e#1199#1200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/entity/Profile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/entity/CauHoiBaiHoc.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/entity/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/daoimpl/DanhMucImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/entity/BaiHoc.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/service/DanhMucService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+        <state relative-caret-position="247">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.1.RELEASE/spring-tx-5.1.1.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="301" selection-start-line="301" selection-end-line="301" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.8.RELEASE/spring-aop-5.0.8.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="698" selection-start-line="698" selection-end-line="698" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="884" selection-start-line="884" selection-end-line="884" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="1004" selection-start-line="1004" selection-end-line="1004" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="930" selection-start-line="930" selection-end-line="930" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/controller/TrangChuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/utils/ConvertTimesamp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/com/dao/DanhMucDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

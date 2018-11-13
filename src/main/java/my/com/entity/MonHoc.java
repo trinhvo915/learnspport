@@ -1,39 +1,50 @@
 package my.com.entity;
 
 import javax.persistence.*;
-import java.sql.Timestamp;
+import java.io.Serializable;
+import java.sql.Date;
 import java.util.List;
 
 @Entity(name = "monhoc")
-public class MonHoc {
+public class MonHoc implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer idmonhoc;
     private String nameMonHoc;
-    private Timestamp createday;
+    private Date createday;
 
     @OneToMany(mappedBy = "monHoc")
     private List<Chuong> listChuong;
 
     @OneToMany(mappedBy = "monHoc")
     private List<DaiHocTest> listDaiHocTest;
-
     public MonHoc() {
+
     }
 
-    public MonHoc(Integer idmonhoc, String nameMonHoc) {
-        this.idmonhoc = idmonhoc;
+    public MonHoc(String nameMonHoc) {
         this.nameMonHoc = nameMonHoc;
     }
 
-    public MonHoc(String nameMonHoc, Timestamp createday, List<Chuong> listChuong) {
+    public MonHoc(Integer idmonhoc, String nameMonHoc,Date createday) {
+        this.idmonhoc = idmonhoc;
+        this.nameMonHoc = nameMonHoc;
+        this.createday = createday;
+    }
+
+    public MonHoc(String nameMonHoc, Date createday, List<Chuong> listChuong) {
         this.nameMonHoc = nameMonHoc;
         this.createday = createday;
         this.listChuong = listChuong;
 
     }
 
-    public MonHoc(String nameMonHoc, Timestamp createday, List<Chuong> listChuong, List<DaiHocTest> listDaiHocTest) {
+    public MonHoc(String nameMonHoc, Date createday) {
+        this.nameMonHoc = nameMonHoc;
+        this.createday = createday;
+    }
+
+    public MonHoc(String nameMonHoc, Date createday, List<Chuong> listChuong, List<DaiHocTest> listDaiHocTest) {
         this.nameMonHoc = nameMonHoc;
         this.createday = createday;
         this.listChuong = listChuong;
@@ -48,11 +59,11 @@ public class MonHoc {
         this.listDaiHocTest = listDaiHocTest;
     }
 
-    public Timestamp getCreateday() {
+    public Date getCreateday() {
         return createday;
     }
 
-    public void setCreateday(Timestamp createday) {
+    public void setCreateday(Date createday) {
         this.createday = createday;
     }
 

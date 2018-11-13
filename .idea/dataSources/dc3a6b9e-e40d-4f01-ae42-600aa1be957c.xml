@@ -1232,7 +1232,8 @@
     </column>
     <column id="300" parent="239" name="createday">
       <Position>3</Position>
-      <DataType>timestamp|0s</DataType>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <key id="301" parent="239" name="PRIMARY">
@@ -1346,7 +1347,7 @@
     </column>
     <column id="321" parent="242" name="createday">
       <Position>3</Position>
-      <DataType>timestamp|0s</DataType>
+      <DataType>date|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <key id="322" parent="242" name="PRIMARY">
