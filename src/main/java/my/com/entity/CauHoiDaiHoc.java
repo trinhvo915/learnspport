@@ -1,12 +1,14 @@
 package my.com.entity;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.sql.Timestamp;
 
 @Entity(name = "cauhoidh")
-public class CauHoiDaiHoc {
+public class CauHoiDaiHoc implements Serializable {
+    private static final long serialVersionUID = 1L;
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id_cauhoiDH;
     private String cauhoi;
     private String dapan_A;

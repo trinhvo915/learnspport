@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <mapping class="my.com.entity.Role" />
+        <mapping class="my.com.entity.MonHoc" />
+        <mapping class="my.com.entity.DaiHocTest" />
+        <mapping class="my.com.entity.User" />
+        <mapping class="my.com.entity.BaiHoc" />
+        <mapping class="my.com.entity.TestBaiHoc" />
+        <mapping class="my.com.entity.Chuong" />
+        <mapping class="my.com.entity.Profile" />
+        <mapping class="my.com.entity.CauHoiBaiHoc" />
+        <mapping class="my.com.entity.CauHoiDaiHoc" />
+        <mapping class="my.com.entity.Comment" />
+        <mapping class="my.com.entity.RankUser" />
+    </session-factory>
+</hibernate-configuration>

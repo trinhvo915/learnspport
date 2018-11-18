@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 @Service
 public class DanhMucService implements DanhMucServiceImpl {
@@ -23,7 +24,7 @@ public class DanhMucService implements DanhMucServiceImpl {
     }
 
     @Override
-    public MonHoc findName(String name) {
+    public List<MonHoc> findName(String name) {
         return danhMucDao.findName(name);
     }
     @Override
@@ -32,11 +33,16 @@ public class DanhMucService implements DanhMucServiceImpl {
     }
 
     @Override
+    public String deleleMonhoc(Integer id) {
+        return  danhMucDao.deleleMonhoc(id);
+    }
+
+    @Override
     public String SaveorUpdate(MonHoc monHoc) {
-        if(findName(monHoc.getNameMonHoc())==null){ //findById(monHoc.getIdmonhoc())==null &&
+        if(findName(monHoc.getNameMonHoc())==null&&findById(monHoc.getIdmonhoc())==null){ //findById(monHoc.getIdmonhoc())==null &&
            String name = monHoc.getNameMonHoc();
             java.sql.Date date1 = ConvertTimesamp.converStringtoDate();
-            MonHoc monHoc1 = new MonHoc(name,date1);
+            //MonHoc monHoc1 = new MonHoc(name,date1);
             boolean check=  danhMucDao.add(monHoc);
             System.out.println("Check :" +check);
             return "add";

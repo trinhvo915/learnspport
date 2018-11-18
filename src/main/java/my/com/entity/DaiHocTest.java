@@ -1,13 +1,15 @@
 package my.com.entity;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.sql.Timestamp;
 import java.util.List;
 
 @Entity(name = "testdh")
-public class DaiHocTest {
+public class DaiHocTest implements Serializable {
+    private static final long serialVersionUID = 1L;
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id_baitestdh;
     private double diem;
     private Timestamp createday;
@@ -29,7 +31,9 @@ public class DaiHocTest {
     public DaiHocTest() {
     }
 
-    public DaiHocTest(double diem, Timestamp createday, User user, MonHoc monHoc, List<CauHoiDaiHoc> listdaiHocTest, List<RankUser> listRankUser) {
+    public DaiHocTest(double diem, Timestamp createday, User user,
+                      MonHoc monHoc, List<CauHoiDaiHoc> listdaiHocTest,
+                      List<RankUser> listRankUser) {
         this.diem = diem;
         this.createday = createday;
         this.user = user;

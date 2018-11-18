@@ -30,6 +30,7 @@
     <mvc:resources mapping="/resources/image/**" location="/resources/image/"/>
     <mvc:resources mapping="/resources/js/**" location="/resources/js/"/>
     <mvc:resources mapping="/resources/js/**/**" location="/resources/js/"/>
+    <mvc:resources mapping="/resources/js/**/**/**" location="/resources/js/"/>
     <mvc:resources mapping="/resources/fonts/**" location="/resources/fonts/"/>
     <mvc:resources mapping="/resources/ckeditor/**" location="/resources/ckeditor/"/>
     <mvc:annotation-driven/>  <!-- chú ý phải thêm dòng này thì dòng trên mới thực hiện được = ><mvc:resources mapping="/resources/**" location="/resources/css/" /> -->

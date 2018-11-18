@@ -1,13 +1,15 @@
 package my.com.entity;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.sql.Timestamp;
 import java.util.List;
 
 @Entity(name = "chuong")
-public class Chuong {
+public class Chuong implements Serializable {
+    private static final long serialVersionUID = 1L;
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idchuong;
     private  String nameChuong;
     private Timestamp createday;

@@ -7,8 +7,9 @@ import java.util.List;
 
 @Entity(name = "monhoc")
 public class MonHoc implements Serializable {
+    private static final long serialVersionUID = 1L;
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idmonhoc;
     private String nameMonHoc;
     private Date createday;
@@ -21,7 +22,9 @@ public class MonHoc implements Serializable {
     public MonHoc() {
 
     }
-
+    public MonHoc(Integer idmonhoc ){
+        this.idmonhoc = idmonhoc;
+    }
     public MonHoc(String nameMonHoc) {
         this.nameMonHoc = nameMonHoc;
     }

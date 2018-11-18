@@ -1,14 +1,16 @@
 package my.com.entity;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.sql.Date;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
 @Entity(name = "role")
-public class Role {
+public class Role implements Serializable {
+	private static final long serialVersionUID = 1L;
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer roleid;
 	private String username;
 	private Date createday;

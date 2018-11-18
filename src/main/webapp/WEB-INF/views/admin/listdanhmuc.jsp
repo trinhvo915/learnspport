@@ -9,8 +9,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Quản trị hệ thống</title>
+
     <link rel="shortcut icon" href="/resources/image/favicon.png">
     <jsp:include page="../header/styleadmin.jsp"/>
+    <script type="text/javascript">
+        function deletemonhoc(id){
+            if(confirm("Chac chan xoa")){
+                window.location.href = '<%=request.getContextPath()%>/admin/listDanhMuc/delete?idmonhoc='+id;
+            }
+        }
+        <c:if test="${not empty successful}">
+            alert("Delete"+${successful});
+        </c:if>
+    </script>
 </head>
 <body>
 <nav class="navbar navbar-inverse" role="navigation">
@@ -33,6 +44,12 @@
         <ol class="breadcrumb">
             <li><a href="/admin"><i class="fa fa-home"></i> Trang quản trị</a></li>
             <li class="active"><a href="/admin/listDanhMuc">Danh mục</a></li>
+            <c:if test="${not empty successful}">
+                <span style="color: #77ee77; margin-left: 10px;font-size: 20px">${successful}</span>
+            </c:if>
+            <c:if test="${not empty Unsuccessful}">
+                <span style="color: #77ee77; margin-left: 10px;font-size: 20px">${Unsuccessful}</span>
+            </c:if>
         </ol>
         <div class="col-xs-12">
             <form id="admin-form" method="post" action="" role="form">
@@ -43,8 +60,6 @@
                             <select id="task" name="task" class="form-control">
                                 <option>Tác vụ</option>
                                 <option value="delete">Xóa tài khoản</option>
-                                <option value="deactive">Khóa</option>
-                                <option value="active">Mở khóa</option>
                             </select>
                         </div>
                         <a href="/admin/newDanhMuc" class="btn btn-submit"><small><i class="fa fa-plus"></i></small> Thêm mới</a>
@@ -57,11 +72,11 @@
                         <thead>
                             <tr>
                                 <th><input id="check_all" type="checkbox"></th>
-                                <th class="hidden-xs">ID</th>
-                                <th>TÊN MÔN HỌC</th>
-                                <th class="hidden-sm hidden-xs">Ngày tạo</th>
-                                <th>Sửa</th>
-                                <th>Tình trạng</th>
+                                <th style="color: greenyellow" class="hidden-xs">ID</th>
+                                <th style="color: greenyellow">TÊN MÔN HỌC</th>
+                                <th style="color: greenyellow"class="hidden-sm hidden-xs">Ngày tạo</th>
+                                <th style="color: #1d9977">Sửa</th>
+                                <th style="color: red">Xóa</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -74,17 +89,16 @@
                                         <span>${monhoc.idmonhoc}</span>
                                     </td>
                                     <td>
-                                        <a href="#">${monhoc.nameMonHoc}</a>
+                                        <a href="/admin/listchuong/idchuong/?idchuong=${monhoc.idmonhoc}">${monhoc.nameMonHoc}</a>
                                     </td>
                                     <td class="hidden-sm hidden-xs">
                                         <span>${monhoc.createday}</span>
                                     </td>
                                     <td>
-                                        <spring:url value="/listDanhMuc/${monhoc.idmonhoc}/update " var="UpdateUrl"/>
-                                        <a href="UpdateUrl"><i class="fa fa-edit" data-toggle="tooltip" data-placement="top" title="Sửa tài khoản"></i></a>
+                                        <a href="/admin/listDanhMuc/update/?idmonhoc=${monhoc.idmonhoc}"><i class="fa fa-edit" data-toggle="tooltip" data-placement="top" title="Sửa tài khoản"></i></a>
                                     </td>
                                     <td>
-                                        <i class="fa fa-check text-success" data-toggle="tooltip" data-placement="top" title="Đang hoạt động"></i>
+                                        <a style="color: red"  href="javascript:deletemonhoc(${monhoc.idmonhoc})"><i class="fa fa-edit" data-toggle="tooltip" data-placement="top" title="Xóa tài khoản"></i></a>
                                     </td>
                                 </tr>
                             </c:forEach>

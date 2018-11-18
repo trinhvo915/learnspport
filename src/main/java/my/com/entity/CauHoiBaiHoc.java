@@ -1,12 +1,15 @@
 package my.com.entity;
 
 import javax.persistence.*;
+import java.io.Serializable;
+import java.sql.Date;
 import java.sql.Timestamp;
 
 @Entity(name = "cauhoi")
-public class CauHoiBaiHoc {
+public class CauHoiBaiHoc implements Serializable {
+    private static final long serialVersionUID = 1L;
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id_cauhoi;
     private String cauhoi;
     private String dapan_A;
@@ -15,7 +18,7 @@ public class CauHoiBaiHoc {
     private String dapan_D;
     private String dapandung;
     private String image;
-    private Timestamp createday;
+    private Date createday;
 
     @ManyToOne
     @JoinColumn(name = "id_baitest")
@@ -24,7 +27,7 @@ public class CauHoiBaiHoc {
     public CauHoiBaiHoc() {
     }
 
-    public CauHoiBaiHoc(Integer id_cauhoi, String cauhoi, String dapan_A, String dapan_B, String dapan_C, String dapan_D, String dapandung, String image, Timestamp createday, TestBaiHoc testBaiHoc) {
+    public CauHoiBaiHoc(Integer id_cauhoi, String cauhoi, String dapan_A, String dapan_B, String dapan_C, String dapan_D, String dapandung, String image, Date createday, TestBaiHoc testBaiHoc) {
         this.id_cauhoi = id_cauhoi;
         this.cauhoi = cauhoi;
         this.dapan_A = dapan_A;
@@ -101,11 +104,11 @@ public class CauHoiBaiHoc {
         this.image = image;
     }
 
-    public Timestamp getCreateday() {
+    public Date getCreateday() {
         return createday;
     }
 
-    public void setCreateday(Timestamp createday) {
+    public void setCreateday(Date createday) {
         this.createday = createday;
     }
 

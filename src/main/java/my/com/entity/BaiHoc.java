@@ -1,18 +1,21 @@
 package my.com.entity;
 
 import javax.persistence.*;
+import java.io.Serializable;
+import java.sql.Date;
 import java.sql.Timestamp;
 import java.util.List;
 
 @Entity(name = "baihoc")
-public class BaiHoc  {
+public class BaiHoc implements Serializable {
+    private static final long serialVersionUID = 1L;
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idbaihoc;
     private String namebaihoc;
     private String image;
     private String noidung;
-    private Timestamp createday;
+    private Date createday;
 
     @ManyToOne
     @JoinColumn(name = "idchuong")
@@ -26,7 +29,7 @@ public class BaiHoc  {
     public BaiHoc() {
     }
 
-    public BaiHoc(Integer idbaihoc, String namebaihoc, String image, String noidung, Timestamp createday, Chuong chuong) {
+    public BaiHoc(Integer idbaihoc, String namebaihoc, String image, String noidung, Date createday, Chuong chuong) {
         this.idbaihoc = idbaihoc;
         this.namebaihoc = namebaihoc;
         this.image = image;
@@ -83,11 +86,11 @@ public class BaiHoc  {
         this.noidung = noidung;
     }
 
-    public Timestamp getCreateday() {
+    public Date getCreateday() {
         return createday;
     }
 
-    public void setCreateday(Timestamp createday) {
+    public void setCreateday(Date createday) {
         this.createday = createday;
     }
 

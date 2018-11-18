@@ -1,11 +1,13 @@
 package my.com.entity;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.List;
 @Entity(name = "user")
-public class User {
+public class User implements Serializable {
+	private static final long serialVersionUID = 1L;
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer userid;
 	private String username;
 	private String password;
