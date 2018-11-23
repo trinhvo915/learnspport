@@ -235,7 +235,10 @@ public class AdminController {
 		Integer idchuong = Integer.valueOf(req.getParameter("idchuong"));
 		String successful = chuongService.deleleChuong(idchuong);
 		// thực hiện xóa xong thì thông báo và hiển thị lại list
-		return null;
+        ArrayList<Chuong> chuongs = chuongService.listChuong(idchuong);
+        modelMap.addAttribute("listchuong", chuongs);
+        modelMap.addAttribute("id", idchuong);
+		return "admin/chuong/listchuong";
 	}
 	/***************** Controller cho quan ly chuong *******************/
 	@GetMapping

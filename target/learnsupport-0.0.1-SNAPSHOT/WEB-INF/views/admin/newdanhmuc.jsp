@@ -46,26 +46,6 @@
             </li>
         </ol>
         <div class="col-xs-12">
-            <%--<form id="admin-form" action="/admin/add"  role="form" class="form-horizontal col-xl-8 col-lg-9 col-md-10"  >--%>
-                <%--<div class="form-group">--%>
-                    <%--<label for="fullname" class="col-sm-3 control-label required">Tên Danh Mục</label>--%>
-                    <%--<div class="col-sm-9">--%>
-                        <%--<input name="nameMonHoc" type="text" value="" class="form-control" id="fullname" placeholder="Tên hiển thị" required="" maxlength="255">--%>
-                    <%--</div>--%>
-                <%--</div>--%>
-                <%--&lt;%&ndash;<div class="form-group">&ndash;%&gt;--%>
-                    <%--&lt;%&ndash;<label class="col-sm-3 control-label required">Ngày Tạo</label>&ndash;%&gt;--%>
-                    <%--&lt;%&ndash;<div class="col-sm-9">&ndash;%&gt;--%>
-                        <%--&lt;%&ndash;<input name="createday" type="date">&ndash;%&gt;--%>
-                    <%--&lt;%&ndash;</div>&ndash;%&gt;--%>
-                <%--&lt;%&ndash;</div>&ndash;%&gt;--%>
-                <%--<div class="form-group">--%>
-                    <%--<div class="col-sm-offset-3 col-sm-9">--%>
-                        <%--<button type="submit" class="btn btn-submit"><small><i class="fa fa-plus"></i></small> Thêm mới</button>--%>
-                        <%--<a class="btn btn-warning" href="#"><small><i class="fa fa-reply"></i></small> Trở về</a>--%>
-                    <%--</div>--%>
-                <%--</div>--%>
-            <%--</form>--%>
             <c:choose>
                 <c:when test="${not empty danhmucupdate}">
                     <form:form id="admin-form" action="/admin/edit"  role="form" class="form-horizontal col-xl-8 col-lg-9 col-md-10" modelAttribute="danhmucupdate">
